@@ -80,4 +80,4 @@ See `VALIDATION.md` for the checks actually executed and their outcomes. The rel
 
 ## Attribution and deposit
 
-The original MIT license is retained for the software; it does not establish ownership or unrestricted licensing of third-party datasets. Preserve input-source attribution when redistributing or citing these data. `CITATION.cff` identifies the software package without inventing a DOI, publication status, or repository URL. Attach the ZIP to Zotero, or upload it as a software deposit to Zenodo after deciding the repository metadata and data redistribution terms; this package does not perform either upload.
+The original MIT license is retained for the software; it does not establish ownership or unrestricted licensing of third-party datasets. Preserve input-source attribution when redistributing or citing these data. `CITATION.cff` identifies the software package.
