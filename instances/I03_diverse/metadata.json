@@ -1,0 +1,51 @@
+{
+  "instance": "I03_diverse",
+  "yield_support_min": 0,
+  "yield_support_median": 5.0,
+  "yield_support_zero_share": 0.4166666666666667,
+  "eligible_share": 0.5833333333333334,
+  "problem_fields": {
+    "crop_names": [
+      "Yuca",
+      "Maiz Blanco",
+      "Platano",
+      "Tomate",
+      "Pina",
+      "Papaya",
+      "Papas",
+      "Arveja verde",
+      "Perejil",
+      "Arracacha",
+      "Lulo",
+      "Habichuela"
+    ],
+    "municipalities": [
+      "Coromoro",
+      "Coromoro",
+      "Coromoro",
+      "Coromoro",
+      "Coromoro",
+      "Coromoro",
+      "Coromoro",
+      "Coromoro"
+    ],
+    "setup_weeks": 1,
+    "same_family_extra_rest": 1,
+    "demand": null,
+    "monetary_scale": 1000000.0
+  },
+  "publication_included": true,
+  "units": {
+    "areas": "m2",
+    "yields": "kg/m2",
+    "prices": "COP/kg",
+    "covariance": "log-return covariance",
+    "income": "million COP",
+    "risk": "(million COP)^2"
+  },
+  "dimensions": {
+    "plots": 8,
+    "crops": 12,
+    "weeks": 104
+  }
+}

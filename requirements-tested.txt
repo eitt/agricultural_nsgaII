@@ -1,0 +1,8 @@
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+PyYAML==6.0.3
+pyscipopt==6.2.1
+pytest==9.1.1
+statsmodels==0.15.0

@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-09-28T15:30:15.644515+00:00",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "git_commit": "3661e68f444e4e3ee5a5f3740474c40530060960",
+  "inputs": {
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2018.xlsx": {
+      "bytes": 1665906,
+      "sha256": "fb6d5349f80f42305261160bf6beb906d07af4f429b5f68c3247c69aaa162d12"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2019.xlsx": {
+      "bytes": 1902793,
+      "sha256": "b6a22e980e7911f9ca741e2a1e7ba2f53ce6775085a293052ef89f532e70832d"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2020.xlsx": {
+      "bytes": 1953147,
+      "sha256": "53e6de3b4c5308b2fc1bd135b39871531ff40a636e2f4c7fc5bcffcf57e65fbc"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2021.xlsx": {
+      "bytes": 1891107,
+      "sha256": "4a460f246bacc4ffc86c235dbef0a043c9ee3b2a7e43ceb0ef3373cab7d2fa09"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2022.xlsx": {
+      "bytes": 1600719,
+      "sha256": "1e299bc44280121eb79d0de4678a1888e92f1aaa1d6195027da69c3d55f47110"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2023.xlsx": {
+      "bytes": 1755768,
+      "sha256": "15230ac8d4046644016770db4d885f49bc76a429673a5369bb014d4b4476c78e"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2024.xlsx": {
+      "bytes": 1656271,
+      "sha256": "081276b031fd517cf137c0c2e5ab1ff6364b7c5d40915dfccf0f4cb972087838"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2025.xlsx": {
+      "bytes": 1778462,
+      "sha256": "235a93317d9845fd6ce31c5060e9fabc478dd7686e5dd3a3833c674eef7c4c8a"
+    },
+    "data\\raw\\sipsa_prices\\SIPSA_wholesale_2026.xlsx": {
+      "bytes": 1997496,
+      "sha256": "729ce63064455d6ede1668deb79ec1f334362d294f4a6c17466f2dc55b234dd7"
+    }
+  },
+  "official_price_page": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/mayoristas-boletin-mensual-1",
+  "official_soap_wsdl": "http://appweb.dane.gov.co/sipsaWS/SrvSipsaUpraBeanService?WSDL",
+  "city": "Bucaramanga",
+  "market": "Centroabastos",
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

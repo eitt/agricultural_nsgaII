@@ -1,0 +1,11 @@
+project:
+  seed: 2026
+data:
+  price_history: data/processed/prices_weekly.csv
+  price_forecast: outputs/forecast/price_forecast_104w.csv
+forecast:
+  enabled: true
+  horizon: 104
+  test_size: 52
+  selection_metric: smape
+  output_dir: outputs/forecast

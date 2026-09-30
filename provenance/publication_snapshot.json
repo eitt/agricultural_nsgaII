@@ -1,0 +1,22 @@
+{
+  "run": "publication_slsqp_test",
+  "method_run_sources": {
+    "exact": "publication_slsqp_test",
+    "nsga2": "publication_nsga2_matched_init",
+    "nsga2_qp": "publication_slsqp_test",
+    "hnsga2": "publication_slsqp_test"
+  },
+  "git_commit": "5ba271a9ebb4d043d53b70d6e22c5af9c295af11",
+  "included_complete_instances": [
+    "I01_micro",
+    "I02_small",
+    "I03_diverse",
+    "I04_two_farms"
+  ],
+  "excluded_incomplete_instances": [
+    "I05_coop_small",
+    "I06_coop_medium",
+    "I07_network",
+    "I08_network_large"
+  ]
+}

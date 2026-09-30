@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-28T15:30:38.590780+00:00",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "git_commit": "3661e68f444e4e3ee5a5f3740474c40530060960",
+  "inputs": {
+    "data\\processed\\prices_weekly.csv": {
+      "bytes": 14508,
+      "sha256": "36889ef0ff7e03a00807db69bb611312a82b984117ba5bfde768d5f0adb48055"
+    }
+  },
+  "test_size": 52,
+  "horizon": 104,
+  "selection_metric": "smape"
+}

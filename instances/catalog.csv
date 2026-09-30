@@ -1,0 +1,9 @@
+instance,farms,lots,total_area_ha,products,horizon_weeks,heterogeneity,seed
+I01_micro,1,2,0.6,5,52,low,101
+I02_small,1,4,1.8,8,52,medium,102
+I03_diverse,1,8,4.5,12,104,high,103
+I04_two_farms,2,8,6.0,8,52,medium,104
+I05_coop_small,5,20,15.0,12,104,medium,105
+I06_coop_medium,10,40,30.0,12,104,high,106
+I07_network,20,80,60.0,21,104,high,107
+I08_network_large,30,150,100.0,21,104,high,108

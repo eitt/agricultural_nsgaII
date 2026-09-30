@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-28T17:01:31.841067+00:00",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "git_commit": "3661e68f444e4e3ee5a5f3740474c40530060960",
+  "inputs": {
+    "data\\seed\\productividad_actualizada.csv": {
+      "bytes": 525940,
+      "sha256": "613e9bc67c462f004cbc2e7093ab0e58a21eef190cd3aaeef547eb5f68e5b832"
+    },
+    "data\\processed\\prices_weekly.csv": {
+      "bytes": 14508,
+      "sha256": "36889ef0ff7e03a00807db69bb611312a82b984117ba5bfde768d5f0adb48055"
+    },
+    "data\\processed\\price_forecast_104w.csv": {
+      "bytes": 41565,
+      "sha256": "82bbf3c0f76d0b0708ccfa8d82a80f5737129e36d343dc50590c77cbecf98bfc"
+    }
+  },
+  "run_id": "publication_slsqp_test",
+  "config": "configs/publication_core.yaml"
+}

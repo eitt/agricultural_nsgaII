@@ -1,0 +1,155 @@
+{
+  "source_git_reference": "5ba271a9ebb4d043d53b70d6e22c5af9c295af11",
+  "source_worktree_is_snapshot_not_clean_commit": true,
+  "copied_source_files": {
+    "src/agriopt/__init__.py": {
+      "source": "src/agriopt/__init__.py",
+      "sha256": "befd54ab6b365e84c94ecf3c0300b5426fe64fcdc749768f9d4c85633f08ba0a"
+    },
+    "src/agriopt/__main__.py": {
+      "source": "src/agriopt/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    "src/agriopt/model.py": {
+      "source": "src/agriopt/model.py",
+      "sha256": "c086390510232d9d4f9bd997e2468c281999de08e521db9c1ae54777ab250d95"
+    },
+    "src/agriopt/parameters.py": {
+      "source": "src/agriopt/parameters.py",
+      "sha256": "369cb7881648824fde80c1474315df1102250a7e1a2b103482c7faa13ed7b34c"
+    },
+    "src/agriopt/instances.py": {
+      "source": "src/agriopt/instances.py",
+      "sha256": "297943cfeb0a3d3aaee5b14d34f827c44ba8df32e2a2bb7bcb5dc085f934f6d6"
+    },
+    "src/agriopt/productivity.py": {
+      "source": "src/agriopt/productivity.py",
+      "sha256": "fafa75884de7e23fcf59698024a99a6a082fe8cd348b6bda500b487358a7a83b"
+    },
+    "src/agriopt/nsga2.py": {
+      "source": "src/agriopt/nsga2.py",
+      "sha256": "6af4a5f218341a362d30392091843193181351cfbd17f1bdc23480558376da23"
+    },
+    "src/agriopt/hybrid_nsga2.py": {
+      "source": "src/agriopt/hybrid_nsga2.py",
+      "sha256": "642fdbfd841d260d8e4f104cb9b2f6a7a41c8aa5a256874684c5bae52eaba88c"
+    },
+    "src/agriopt/refinement.py": {
+      "source": "src/agriopt/refinement.py",
+      "sha256": "53ae8e5c9501e3b74556a33775db88872d5dc94e834204662fbe883df24c78c2"
+    },
+    "src/agriopt/exact_scip.py": {
+      "source": "src/agriopt/exact_scip.py",
+      "sha256": "811696d37a367fbe22ab16a840ba286d2792da0909014d80499494d86022fa5e"
+    },
+    "src/agriopt/validation.py": {
+      "source": "src/agriopt/validation.py",
+      "sha256": "5d0bcfaea2facc729ec725f30ccc28791d04523c88b399dc981df4e92e8da5b7"
+    },
+    "src/agriopt/io_utils.py": {
+      "source": "src/agriopt/io_utils.py",
+      "sha256": "6fa70b8c9f16d3534168f44f75256ed551ea123ed31035871b7ed0c65f8d8d78"
+    },
+    "src/agriopt/paths.py": {
+      "source": "src/agriopt/paths.py",
+      "sha256": "af1a50e3f29a0378596cfe6c39b8455b18234a184545cc86b9845ad06717ff28"
+    },
+    "src/agriopt/config.py": {
+      "source": "src/agriopt/config.py",
+      "sha256": "e9273f02550386cfe488240ef7956d9b7b6cd406f94c5240aaf4f102e24b03ce"
+    },
+    "src/agriopt/provenance.py": {
+      "source": "src/agriopt/provenance.py",
+      "sha256": "eb30e5b8afc6c37aa86138c0da728f2c57154a43ba889d4d865ed550724bcd3b"
+    },
+    "src/agriopt/experiment.py": {
+      "source": "src/agriopt/experiment.py",
+      "sha256": "d7d1d0a814aac841fbfe7da344597e208edeb4743121e8d2d7dc0bb5310826bb"
+    },
+    "src/agriopt/metrics.py": {
+      "source": "src/agriopt/metrics.py",
+      "sha256": "2571134fba097e1157d6f0d8dc20f5822664b1d242bf25abe41aaebd02651904"
+    },
+    "LICENSE": {
+      "source": "LICENSE",
+      "sha256": "59121b05bb043f8ea3ac17b4ba269ec36dff1d09e259735af333ab51d579e06c"
+    },
+    "data/seed/productividad_actualizada.csv": {
+      "source": "data/seed/productividad_actualizada.csv",
+      "sha256": "613e9bc67c462f004cbc2e7093ab0e58a21eef190cd3aaeef547eb5f68e5b832"
+    },
+    "data/seed/precios_historicos_2013_2017.csv": {
+      "source": "data/seed/precios_historicos_2013_2017.csv",
+      "sha256": "3f2d55066d88d7991b001014e36c78bede2b5b3e301a52878fad6401d7c40aae"
+    },
+    "data/seed/demo_price_forecast_104w.csv": {
+      "source": "data/seed/demo_price_forecast_104w.csv",
+      "sha256": "0b4d8b5eb3b80839ae99ca55e29838a87ce631332f6702d9a6a6b222d0af589d"
+    },
+    "data/processed/prices_weekly.csv": {
+      "source": "data/processed/prices_weekly.csv",
+      "sha256": "36889ef0ff7e03a00807db69bb611312a82b984117ba5bfde768d5f0adb48055"
+    },
+    "data/processed/price_forecast_104w.csv": {
+      "source": "data/processed/price_forecast_104w.csv",
+      "sha256": "82bbf3c0f76d0b0708ccfa8d82a80f5737129e36d343dc50590c77cbecf98bfc"
+    },
+    "tests/test_smoke.py": {
+      "source": "tests/test_smoke.py",
+      "sha256": "4fbf301935541f04b33417aaac1702b22906d9fcdae90387449cda0b82c8e293"
+    },
+    "tests/test_metrics.py": {
+      "source": "tests/test_metrics.py",
+      "sha256": "92fffa1beca5d04bb0316ac64e651d3f11f1600f1dbee3f61d4a1d186d1b94a4"
+    },
+    "instances/catalog.csv": {
+      "source": "data/seed/benchmark_instance_catalog.csv",
+      "sha256": "ad17a7e704882a3925ba7e19387744521fd28dda94caae6ef871d4484d8cb8fa"
+    },
+    "provenance/data_provenance.json": {
+      "source": "data/processed/data_provenance.json",
+      "sha256": "e8e4bcd0ecc58823bf8f1b5ffc6618aff7f017c1c4e29a801fe374661de1df21"
+    },
+    "provenance/forecast_provenance.json": {
+      "source": "data/processed/forecast_provenance.json",
+      "sha256": "25e5f166d2a4894851ef6bbd70d83766977d014c61ed0e78bfbf43468ab4c986"
+    },
+    "src/agriopt/forecasting.py": {
+      "source": "src/agriopt/forecasting.py",
+      "sha256": "bffe3886992f71525ab4dfcd671e63f0ae99946b5944e76605fcd79a1ee79cd2"
+    }
+  },
+  "tested_python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "validation_dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "PyYAML": "6.0.3",
+    "pyscipopt": "6.2.1",
+    "pytest": "9.1.1",
+    "statsmodels": "0.15.0"
+  },
+  "original_input_hashes_verified": true,
+  "excluded": [
+    "reporting",
+    "figure/table generation",
+    "manuscript",
+    "live downloads",
+    "experimental outputs"
+  ],
+  "adaptations": [
+    "optimization/forecasting CLI",
+    "frozen-instance loader",
+    "offline configs",
+    "isolated forecast outputs",
+    "additional validation tests"
+  ],
+  "historical_dependency_lock_available": false,
+  "adapted_source_files": {
+    "src/agriopt/forecast_pipeline.py": {
+      "original_source_sha256": "b843c231f5f81f8bf2993b07c1fd3b789a780e29b2e05844f81f13b60effafb6",
+      "changes": "Route derived outputs to outputs/forecast and remove references to excluded live-data commands; model fitting and selection unchanged."
+    }
+  }
+}

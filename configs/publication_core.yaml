@@ -1,0 +1,56 @@
+project:
+  run_id: paper
+  seed: 2026
+data:
+  productivity: data/seed/productividad_actualizada.csv
+  price_history: data/processed/prices_weekly.csv
+  price_forecast: data/processed/price_forecast_104w.csv
+  demand: null
+experiment:
+  instances:
+  - I01_micro
+  - I02_small
+  - I03_diverse
+  - I04_two_farms
+  seeds:
+  - 2026
+  - 2027
+  - 2028
+  - 2029
+  - 2030
+  - 2031
+  - 2032
+  - 2033
+  - 2034
+  - 2035
+  methods:
+  - exact
+  - nsga2
+  - nsga2_qp
+  - hnsga2
+  exact_instances:
+  - I01_micro
+  - I02_small
+  - I03_diverse
+  - I04_two_farms
+  nsga2:
+    population: 80
+    generations: 150
+  hybrid:
+    population: 80
+    generations: 150
+    refinement_fraction: 0.25
+    warmup_generations: 5
+    min_training_samples: 30
+    backend: slsqp
+    refinement_time_limit: 60
+  exact:
+    points: 11
+    time_limit: 1800
+    time_limit_by_instance:
+      I01_micro: 300
+      I02_small: 600
+      I03_diverse: 1200
+      I04_two_farms: 1800
+    mip_gap: 0.0001
+    threads: 4

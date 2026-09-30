@@ -1,0 +1,43 @@
+{
+  "instance": "I02_small",
+  "yield_support_min": 0,
+  "yield_support_median": 21.5,
+  "yield_support_zero_share": 0.125,
+  "eligible_share": 0.625,
+  "problem_fields": {
+    "crop_names": [
+      "Yuca",
+      "Maiz Blanco",
+      "Platano",
+      "Tomate",
+      "Pina",
+      "Papaya",
+      "Papas",
+      "Arveja verde"
+    ],
+    "municipalities": [
+      "Onzaga",
+      "Onzaga",
+      "Onzaga",
+      "Onzaga"
+    ],
+    "setup_weeks": 1,
+    "same_family_extra_rest": 1,
+    "demand": null,
+    "monetary_scale": 1000000.0
+  },
+  "publication_included": true,
+  "units": {
+    "areas": "m2",
+    "yields": "kg/m2",
+    "prices": "COP/kg",
+    "covariance": "log-return covariance",
+    "income": "million COP",
+    "risk": "(million COP)^2"
+  },
+  "dimensions": {
+    "plots": 4,
+    "crops": 8,
+    "weeks": 52
+  }
+}

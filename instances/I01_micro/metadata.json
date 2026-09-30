@@ -1,0 +1,38 @@
+{
+  "instance": "I01_micro",
+  "yield_support_min": 0,
+  "yield_support_median": 12.0,
+  "yield_support_zero_share": 0.2,
+  "eligible_share": 0.6,
+  "problem_fields": {
+    "crop_names": [
+      "Yuca",
+      "Maiz Blanco",
+      "Platano",
+      "Tomate",
+      "Pina"
+    ],
+    "municipalities": [
+      "Cabrera",
+      "Cabrera"
+    ],
+    "setup_weeks": 1,
+    "same_family_extra_rest": 1,
+    "demand": null,
+    "monetary_scale": 1000000.0
+  },
+  "publication_included": true,
+  "units": {
+    "areas": "m2",
+    "yields": "kg/m2",
+    "prices": "COP/kg",
+    "covariance": "log-return covariance",
+    "income": "million COP",
+    "risk": "(million COP)^2"
+  },
+  "dimensions": {
+    "plots": 2,
+    "crops": 5,
+    "weeks": 52
+  }
+}

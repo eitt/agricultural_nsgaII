@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+type: software
+title: "Agricultural production planning: optimization core and frozen benchmarks"
+message: "Cite this software annex and the accompanying manuscript when using the code or benchmarks."
+version: 0.3.0
+authors:
+  - family-names: "Talero-Sarmiento"
+    given-names: "Leonardo Hernán"
+    orcid: "https://orcid.org/0000-0002-4129-9163"
